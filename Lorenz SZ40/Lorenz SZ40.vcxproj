@@ -74,6 +74,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="baudot.cpp" />
+    <ClCompile Include="LorenzMachine.cpp" />
+    <ClCompile Include="LorenzWheel.cpp" />
+    <ClCompile Include="LorenzWheelCollection.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="baudot.h" />
+    <ClInclude Include="LorenzWheelCollection.h" />
+    <ClInclude Include="LorenzMachine.h" />
+    <ClInclude Include="LorenzWheel.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
