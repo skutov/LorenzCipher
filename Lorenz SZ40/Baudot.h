@@ -9,9 +9,8 @@
 class Baudot
 {
 private:
-	std::string baudotLettersToAscii;
 
-	char charAsciiToBaudot (char baudotCharacter);
+	std::string baudotLettersToAscii;
 
 public:
 
@@ -19,6 +18,8 @@ public:
 	Baudot ();
 	~Baudot ();
 
+	unsigned char charAsciiToBaudot (char baudotCharacter);
+	char charBaudotToAscii (char asciiCharacter);
 
 };
 #endif
