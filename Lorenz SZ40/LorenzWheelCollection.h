@@ -10,5 +10,5 @@ public:
 	// Constructor and Destructor
 	LorenzWheelCollection ();
 	~LorenzWheelCollection ();
-}
+};
 #endif

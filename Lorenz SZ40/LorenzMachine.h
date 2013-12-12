@@ -10,5 +10,5 @@ public:
 	// Constructor and Destructor
 	LorenzMachine ();
 	~LorenzMachine ();
-}
+};
 #endif
